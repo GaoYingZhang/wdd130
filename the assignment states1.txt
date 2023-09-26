@@ -1,0 +1,2 @@
+input("my is Gaoying Zhang")
+input("hello,Gaoying zhang")
