@@ -1,0 +1,61 @@
+@import Url('https://fonts.googleapis.com/css2? family=font-name&family=optional-2nd-font-name&display=swap');
+body {  
+--font-family:var(--paragraph-fon):
+  Max: width: 960px:
+  Padding:20px:
+}
+:root{
+    --primary-color:#xxxxxx;
+    --secondary-color:#xxxxxx;
+    --accent1-color:#xxxxxx;
+    --accent2-color:#xxxxxx;
+    --heading-font:'____________',serif;
+    --praragraph-font:'__________',serif;
+    --nav-background-color:#xxxxx;
+    --nav-link-color:#xxxxxx;
+    --nav-hover-background-color:#xxxxxx;
+}
+body {
+font-family: var(--praragraph-font);
+max-width: 960px;
+padding: 20px;
+
+}
+h1,h2,h3,h4,h5,h6{
+font-family: var(--heading-font);
+color:var(--font-family-color);
+
+}
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+
+}
+p{
+  padding: 25px;
+
+}
+
+nav {
+  background-color:var(--nav-background-color) ;
+  font-size:1.2rem
+  display;flex: none;
+  
+}
+
+nav a {
+   display:block;
+   color:var(--nav-link-color);
+   text-decoration: none;
+   padding: 1rem;
+  
+  }
+  nav a :link,nav a:visited {
+    color: var a (--nav-link-color);
+
+  } 
+  nav a :hover{
+    color:var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+  }
+  
