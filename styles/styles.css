@@ -50,7 +50,7 @@ footer{
 /*class selectors */
 .box {
   margin: 1rem;
-  border: 1px; solid rgba (0,0,0,.1);
+  border: 1px; 
   padding: 1rem;
   background-color: #ddd;
   color: #000;
@@ -58,4 +58,12 @@ footer{
 aside {
 width: 20em;
 text-align: center;
+}
+main img{
+  /* Hello ,my naame is Gaoying zhang ,l am very commendable for starting business in cambodia and providing housekeeping 
+  service and real estate agency service,My work provides many families with quality nannies and cleaning staff,while also
+  helping many people gain employmet opportunities,l like to work and l have more aboth exprience at work.and it is gratifying
+  that l also use my weekend to serve in church.l wish l contiuned success in work and life,and God will always bless me.
+  */
+  float: right;
 }
