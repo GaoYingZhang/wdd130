@@ -1,61 +1,72 @@
-@import Url('https://fonts.googleapis.com/css2? family=font-name&family=optional-2nd-font-name&display=swap');
-body {  
---font-family:var(--paragraph-fon):
-  Max: width: 960px:
-  Padding:20px:
-}
-:root{
-    --primary-color:#xxxxxx;
-    --secondary-color:#xxxxxx;
-    --accent1-color:#xxxxxx;
-    --accent2-color:#xxxxxx;
-    --heading-font:'____________',serif;
-    --praragraph-font:'__________',serif;
-    --nav-background-color:#xxxxx;
-    --nav-link-color:#xxxxxx;
-    --nav-hover-background-color:#xxxxxx;
-}
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-font-family: var(--praragraph-font);
-max-width: 960px;
-padding: 20px;
+  --font-family: var(--paragraph-fon): Max: width: 960px: Padding:20px:
+}
+
+:root {
+  --primary-color: #211a1d;
+  --secondary-color: #53d8fb;
+  --accent1-color: #928779;
+  --accent2-color: #66c3ff;
+  --heading-font: 'Arvo', serif;
+  --praragraph-font: 'Roboto', serif;
+  --nav-background-color: #211a1d;
+  --nav-link-color: #fff;
+  --nav-hover-background-color: #fff;
+  --nav-hover-link-color: #211a1d;
+}
+
+body {
+  font-family: var(--praragraph-font);
+  max-width: 960px;
+  padding: 20px;
 
 }
-h1,h2,h3,h4,h5,h6{
-font-family: var(--heading-font);
-color:var(--font-family-color);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--font-family-color);
 
 }
+
 header {
   padding: 20px;
   background-color: var(--accent1-color);
 
 }
-p{
+
+p {
   padding: 25px;
 
 }
 
 nav {
-  background-color:var(--nav-background-color) ;
-  font-size:1.2rem
-  display;flex: none;
-  
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+
 }
 
 nav a {
-   display:block;
-   color:var(--nav-link-color);
-   text-decoration: none;
-   padding: 1rem;
-  
-  }
-  nav a :link,nav a:visited {
-    color: var a (--nav-link-color);
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
 
-  } 
-  nav a :hover{
-    color:var(--nav-hover-link-color);
-    background-color: var(--nav-background-color);
-  }
-  
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
