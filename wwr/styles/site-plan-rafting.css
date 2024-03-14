@@ -9,8 +9,9 @@
   --praragraph-font: 'Roboto', serif;
   --nav-background-color: #211a1d;
   --nav-link-color: #fff;
-  --nav-hover-background-color: #fff;
   --nav-hover-link-color: #211a1d;
+  --nav-hover-background-color: #fff;
+ 
 }
 
 body {
