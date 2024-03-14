@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-  --font-family: var(--paragraph-fon): Max: width: 960px: Padding:20px:
-}
-
 :root {
   --primary-color: #211a1d;
   --secondary-color: #53d8fb;
@@ -21,7 +17,6 @@ body {
   font-family: var(--praragraph-font);
   max-width: 960px;
   padding: 20px;
-
 }
 
 h1,
