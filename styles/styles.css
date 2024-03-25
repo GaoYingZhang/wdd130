@@ -62,7 +62,7 @@ aside img {
   width: 200px;
   height: auto;
   align-self: stretch;
-  justify-self:left ;
+  justify-self:self-end ;
 }
 
 main img {
