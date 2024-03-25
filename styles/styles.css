@@ -3,7 +3,7 @@ nav {
   padding: 1px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
 }
 
 nav a {
@@ -97,7 +97,7 @@ footer {
 
 aside {
   width: 20em;
-  text-align: left;
+  text-align: center;
 }
 
 main img {
