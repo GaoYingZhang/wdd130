@@ -3,7 +3,7 @@ nav {
   padding: 1px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
 }
 
 nav a {
@@ -15,7 +15,7 @@ nav a {
 }
 
 h1 {
-  
+
   color: steelblue;
 }
 
