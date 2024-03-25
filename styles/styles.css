@@ -33,7 +33,7 @@ main {
   margin:0 auto
 }
 .grid {
-  
+
   grid-auto-rows:
   grid-gap=20px
   display grid ;
@@ -61,6 +61,8 @@ aside {
 aside img {
   width: 200px;
   height: auto;
+  align-self: stretch;
+  justify-self: left;
 }
 
 main img {
