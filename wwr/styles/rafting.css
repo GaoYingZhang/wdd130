@@ -1,6 +1,20 @@
 @import url("styles.css");
+header{
+margin: 1rem auto;
+display: grid;
+grid-template-columns: 120px 1fr 2fr;
+align-items: center;
+border-bottom: 1px solid #ccc;
+max-width: 1000px;
+}
 
-:root{
+ .logo img{
+    margin: 00.25rem 0 1rem;
+    width: 64x;
+    height: auto;
+ }
+
+:root{ 
   --primary-color:blue;
   --secondary-color:red;
 }
